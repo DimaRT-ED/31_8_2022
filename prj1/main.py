@@ -8,7 +8,6 @@ from selenium.webdriver.common.by import By
 
 def save_new_element(element: WebElement):
     print(element.text)
-    print(element.get_attribute('href'))
 
 
 
